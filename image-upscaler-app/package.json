@@ -1,0 +1,30 @@
+{
+  "name": "image-upscaler-app",
+  "version": "1.0.0",
+  "description": "An application to upscale images in various formats.",
+  "main": "src/main/main.ts",
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc",
+    "dev": "electron . --dev"
+  },
+  "dependencies": {
+    "electron": "^latest",
+    "react": "^latest",
+    "react-dom": "^latest",
+    "react-scripts": "^latest"
+  },
+  "devDependencies": {
+    "typescript": "^latest",
+    "eslint": "^latest",
+    "eslint-plugin-react": "^latest"
+  },
+  "keywords": [
+    "image",
+    "upscale",
+    "electron",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

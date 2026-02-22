@@ -1,0 +1,36 @@
+{
+  "appTitle": "Image Upscaler",
+  "settings": {
+    "upscaleQuantity": {
+      "label": "Upscale Quantity",
+      "options": {
+        "2x": "2x",
+        "4x": "4x"
+      }
+    },
+    "language": {
+      "label": "Language",
+      "options": {
+        "english": "English",
+        "russian": "Русский"
+      }
+    }
+  },
+  "features": {
+    "upload": "Upload your images",
+    "preview": "Preview upscaled images",
+    "download": "Download upscaled images"
+  },
+  "instructions": {
+    "selectImage": "Select an image to upscale",
+    "chooseSettings": "Choose your settings",
+    "startUpscaling": "Click 'Upscale' to start"
+  },
+  "errorMessages": {
+    "invalidFile": "Invalid file format. Please upload a JPG, JPEG, or PNG file.",
+    "uploadFailed": "Image upload failed. Please try again."
+  },
+  "successMessages": {
+    "upscaleComplete": "Upscaling complete! You can download your image now."
+  }
+}
